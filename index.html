@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adidas</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+      <link rel="shortcut icon" href="assets/favicon.ico">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <header class="">
+      <nav class="black">
+	    <div class="container">
+	      <div class="nav-wrapper">
+	        <a href="index.html" class="brand-logo"><img class="responsive-img" style="width: 60px; margin-top: 15px;" src="assets/logo-adidas.png"></a>
+	        <a class="hidden-xs"><input type="search" class="font" style="width: 40%; margin-left: 31%; font-size:18px; font-family: FontAwesome" placeholder="&#xF002;"></a>
+	        <a class="right button" href="#" data-activates="nav-mobile"><i class="material-icons">format_align_left</i></a>
+	        <ul class="right side-nav" id="nav-mobile" style="transform: translateX(-100%);">
+	        
+			<li>
+				<input type="search" class="black-text" style="width: 85%; margin-left: 9%; font-size:18px; font-family: FontAwesome" placeholder="&#xF002;">
+			</li>
+
+			<li><a href=""><i class="material-icons">home</i>Inicio</a></li>
+			<li><a href=""><i class="material-icons">info</i>Sobre nosotros</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    </header>
+      <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="assets/ad.jpg"></div>
+      </div>
+      <div class="section white">
+        <div class="row container">
+			<div class="Rectangle">
+				<h2 class="header A1">EQT Support</h2>
+          		<p class="header A2">Everything that is essential <br>Nothing that is not.</p>
+          		<div class="center"><img id="image-test" src="assets/tenis.png" class=" responsive-img" style="width: 555px; height: 269.5px;"></div>
+			</div>
+			<br><br><br>
+			<div class="container" style="margin-top: -50px;">
+					<div class="col s4">
+		              <div class="promo promo-example">
+		                <p class="-Performance"><span class="text-style-1">01.</span><br>Performace</p><br>
+		                <p class="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis ultrices sapien, eu vestibulum</p><br>
+		                <a class="See-more" href="#">See more</a><br><br>
+		                <div class="informa"><img id="image-test" class="materialboxed responsive-img" style="width: 185px; height: 185px;" src="assets/im1.jpg"></div>
+		              </div>
+		            </div>
+					<div class="col s4">
+		              <div class="promo promo-example">
+		                <p class="-Performance"><span class="text-style-1">02.</span><br>Material</p><br>
+		                <p class="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis ultrices sapien, eu vestibulum</p><br>
+		                <a class="See-more" href="#">See more</a><br><br>		               
+		                <div class="informa"><img id="image-test" class="materialboxed responsive-img" style="width: 185px; height: 185px;" src="assets/img2.jpg"></div>
+		              </div>
+		            </div>
+					<div class="col s4">
+		              <div class="promo promo-example">
+		                <p class="-Performance"><span class="text-style-1">03.</span><br>Balance</p><br>
+		                <p class="Lorem-ipsum-dolor-si">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis ultrices sapien, eu vestibulum</p><br>
+		                <a class="See-more" href="#">See more</a><br><br>		                
+		                <div class="informa"><img id="image-test" class="materialboxed responsive-img" style="width: 185px; height: 185px;" src="assets/img3.jpg"></div>
+		              </div>
+		            </div>		            		            
+          		            
+			    </div>
+			</div>
+        </div>
+      </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="assets/HP_UBX_W_running_1366x830.jpg"></div>
+      </div>
+
+
+
+        <footer class="page-footer">
+          <div class="footer-copyright black">
+            <div class="container">
+            © 2017 Copyright Adidas
+            <a class="right" href="#!"><img class="responsive-img" src="assets/logo-canalla-agency.png" style="width: 80px;"></a>
+            </div>
+          </div>
+        </footer>
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+        var options = [{selector: '#staggered-test', offset: 200, callback: function(el) { Materialize.showStaggeredList($(el)); } }, {selector: '#image-test', offset: 200, callback: function(el) { Materialize.fadeInImage($(el)); } }];Materialize.scrollFire(options); 
+
+          $('.parallax').parallax();
+           $('.button').sideNav({
+		      menuWidth: 300, // Default is 300
+		      edge: 'right', // Choose the horizontal origin
+		      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		      draggable: true, // Choose whether you can drag to open on touch screens,
+		      onOpen: function(el){ / * Do Stuff* / }, // A function to be called when sideNav is opened
+		      onClose: function(el) { / * Do Stuff* / }, // A function to be called when sideNav is closed
+		    }
+		  );
+          $('.materialboxed').materialbox();
+
+        }); 
+
+      </script>
+    </body>
+</html>
+
+

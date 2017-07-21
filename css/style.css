@@ -1,0 +1,162 @@
+/* Color palette */
+
+:root {
+  --carnation: #ff7585;
+}
+
+/* Text styles */
+
+.A1 {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 150px;
+}
+
+.A2 {
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 150px; 
+  margin-top: -15px;
+}
+
+.A3 {
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #ff7585;
+  color: var(--carnation);
+}
+
+.TITLE_PURPLE {
+  font-family: Exo;
+  font-size: 19px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #463eaa;
+}
+
+.TEXT {
+  font-family: Exo;
+  font-size: 9px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #605f5f;
+}
+
+.c1 {
+  font-family: Raleway;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 1.69;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.Ejercicio-Canalla {
+  width: 720px;
+  height: 1170px;
+}
+
+.Rectangle {
+  margin-top: -42px;
+  margin-left: -201px;
+  width: 1349px;
+  background-color: #ff7585;
+  background-color: var(--carnation);
+}
+
+.Rectangle-2 {
+  width: 1080px;
+  height: 60px;
+  background-color: #222222;
+}
+.EQT-Support {
+  width: 305px;
+  height: 58.5px;
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: left;
+  color: #ffffff;
+}
+.Everything-that-is-e {
+  width: 237px;
+  height: 45px;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: left;
+  color: #ffffff;
+}
+.sneaker {
+  margin-top: -50px;
+  width: 555px;
+  height: 269.5px;
+}
+.-Performance {
+  width: 179.6px;
+  height: 45px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #222222;
+}
+
+.-Performance .text-style-1 {
+  color: #ff7585;
+  color: var(--carnation);
+}
+.Lorem-ipsum-dolor-si {
+  width: 161.5px;
+  height: 40.5px;
+  font-family: Raleway;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.69;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #4a4a4a;
+}
+.See-more {
+  width: 100px;
+  height: 9.5px;
+  font-family: Raleway;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #4a4a4a;
+}
+.BG2-Copy {
+  width: 720px;
+  height: 197.5px;
+  opacity: 0.57;
+  background-color: #f4f4f4;
+}
+.Gradient_BG {
+  width: 720px;
+  height: 50.5px;
+  background-color: #000000;
+}
+@media (max-width: 992px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .hidden-xl{
+  	display: ;
+  }
+}
