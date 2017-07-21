@@ -67,12 +67,32 @@
 .Rectangle {
   margin-top: -42px;
   margin-left: -201px;
-  margin-right: -201px;
+  margin-right: auto;
   width: auto;
   background-color: #ff7585;
   background-color: var(--carnation);
 }
+.section2 {
+  margin-top: -15px;
+  margin-left: -202px;
+  margin-right: -202px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--carnation);
 
+}
+
+.section.no-pad {
+  padding: 0;
+}
+
+.section.no-pad-bot {
+  padding-bottom: 0;
+}
+
+.section.no-pad-top {
+  padding-top: 0;
+}
 .Rectangle-2 {
   width: 1080px;
   height: 60px;
