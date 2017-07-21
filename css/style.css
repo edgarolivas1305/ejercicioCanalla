@@ -64,15 +64,11 @@
   color: #4a4a4a;
 }
 
-.Ejercicio-Canalla {
-  width: 720px;
-  height: 1170px;
-}
-
 .Rectangle {
   margin-top: -42px;
   margin-left: -201px;
-  width: 1349px;
+  margin-right: -201px;
+  width: auto;
   background-color: #ff7585;
   background-color: var(--carnation);
 }
@@ -188,6 +184,7 @@
   .hidden-xs {
     display: none !important;
   }
+  .
 }
 @media (min-width: 992px){
 	.hidden-xl{

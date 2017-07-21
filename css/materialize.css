@@ -7350,7 +7350,7 @@ input[type=range]:focus::-ms-fill-upper {
   background-color: #2bbbad;
 }
 
-.side-nav li > a.btn-floating:hover {
+.side-nav li > a.btn@-floating:hover {
   background-color: #26a69a;
 }
 
