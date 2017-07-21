@@ -152,11 +152,45 @@
   height: 50.5px;
   background-color: #000000;
 }
+.Shop {
+  width: 179.6px;
+  height: 22.5px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  color: #222222;
+
+}
+
+.Lorem-ipsum-dolor-sx {
+  width: 161.5px;
+  height: 40.5px;
+  font-family: Raleway;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 1.69;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.centrado{
+	margin-left: 15px;	
+	margin-top: 60px;
+}
+.Rectangle-3 {
+  width: 161.5px;
+  height: 35px;
+  background-color: #ff7585;
+  background-color: var(--carnation);
+}
 @media (max-width: 992px) {
   .hidden-xs {
     display: none !important;
   }
-  .hidden-xl{
-  	display: ;
-  }
+}
+@media (min-width: 992px){
+	.hidden-xl{
+		display: none !important;
+	}
 }
